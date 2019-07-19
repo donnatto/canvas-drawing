@@ -32,8 +32,8 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo) {
 
 function click(evento) {
   boolMouseDraw = true;
-  x = evento.layerX;
-  y = evento.layerY;
+  x = this.layerX;
+  y = this.layerY;
 }
 
 function dibujarMouse(evento) {

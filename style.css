@@ -1,10 +1,28 @@
 body{
     font-family: monospace;
+    margin: 0;
+    background-color: #232323;
 }
 canvas{
     border: 2px solid black;
 }
-.jumbotron{
-    margin: 0;
-    height: 220px;
+#header{
+    padding: 10px 0;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 150%;
+}
+#canvas{
+    display: flex;
+    padding-top: 10px;
+}
+#area_de_dibujo{
+    margin: 0 auto;
+}
+#borrar{
+    display: inline-block;
+    background-color: steelblue;
+    border: none;
+    height: 30px;
+    border-radius: 15%;
 }

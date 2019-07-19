@@ -3,28 +3,26 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Dibujando con mouse</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Mouse Drawing</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="jumbotron bg-info">
-      <h1 class="display-3">Canvas HTML</h1>
-      <h2 class="lead">Haz click con el mouse para dibujar</h2>
-      <i>Cada trazo es un color diferente<br></i>
+  <div id="section">
+    <div id="header">
+      <h1>Canvas HTML</h1>
+      <h2>Haz click con el mouse para dibujar</h2>
+      <i>Cada trazo es un color diferente</i>
+      <button id="borrar">Borrar</button>
     </div>
-    <div class="d-flex">
+    <div id="canvas">
       <canvas width="400" height="400" id="area_de_dibujo"></canvas>
-      <button class="ml-2 align-self-center" id="borrar">Borrar</button>
 
     </div>
 
-    </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
